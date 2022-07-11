@@ -18,7 +18,7 @@ public class Actividad1Appp {
 		
 			double media = notaMedia(sc);
 		
-			medias = rellenarDiccionario(medias, alumno, media);
+			rellenarDiccionario(medias, alumno, media);
 		}
 		
 		imprimir(medias);
@@ -45,11 +45,9 @@ public class Actividad1Appp {
 		return media;
 	}
 	
-	public static Hashtable<String,Double> rellenarDiccionario (Hashtable<String,Double> medias,String alumno, double media) {
+	public static void rellenarDiccionario (Hashtable<String,Double> medias,String alumno, double media) {
 		
 		medias.put(alumno, media);
-		
-		return medias;
 		
 	}
 	

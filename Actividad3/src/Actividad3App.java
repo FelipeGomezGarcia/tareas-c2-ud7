@@ -9,8 +9,6 @@ public class Actividad3App {
 		
 		rellenar(stock);
 		
-		
-		
 		boolean menu = true;
 		
 		while (menu) {
